@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 :root {
-    --bg-dark: #6e0c49;
-    --bg-light-dark: #360a1cc7;
+    --bg-dark: #96085f;
+    --bg-light-dark: #4b0e27c7;
     --text-primary: #e0e0e0;
     --text-secondary: #aaaaaa;
-    --accent-color: #db59a5; /* Cor primária do Bootstrap */
+    --accent-color: #c52b78; /* Cor primária do Bootstrap */
 }
 
 html {
@@ -35,10 +35,10 @@ section {
 
 /* --- Navbar "Glassmorphism" --- */
 .navbar-glass {  
-    background: rgba(255, 150, 208, 0.123); /* Fundo escuro semi-transparente */
+    background: rgba(238, 5, 141, 0.151); /* Fundo escuro semi-transparente */
     backdrop-filter: blur(10px); /* O efeito de desfoque */
     -webkit-backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
     transition: background 0.3s ease;
 }
 
@@ -53,13 +53,13 @@ section {
 /* --- Seção Hero --- */
 .hero-section {
     min-height: 100vh;
-    background: linear-gradient(rgba(18, 18, 18, 0.7), rgb(18, 18, 18)), url('imagens/lala.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.075), rgb(18, 18, 18)), url('imagens/teste.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 .rosa{
-    background-color: #e092c0;
+    background-color: #ff8bc5;
 }
 .foto-perfil {
     width: 150px;
@@ -67,7 +67,7 @@ section {
     object-fit: cover;
     border-radius: 50%;
     border: 4px solid var(--accent-color);
-    box-shadow: 0 0 20px rgba(209, 5, 90, 0.5);
+    box-shadow: 0 0 20px rgba(212, 5, 102, 0.781);
 }
 
 /* --- Efeito Máquina de Escrever (Typewriter) --- */
@@ -85,9 +85,9 @@ section {
 
 /* --- Cards de Projeto (Glassmorphism) --- */
 .project-card {
-    background: rgba(163, 22, 88, 0.5);
+    background: rgba(209, 12, 104, 0.781);
     backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(241, 125, 179, 0.692);
     border-radius: 15px;
     padding: 2rem;
     height: 100%; /* Garante que os cards tenham a mesma altura */
@@ -98,7 +98,7 @@ section {
 
 .project-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 30px rgb(255, 0, 170);
 }
 
 .project-card .card-tags {
@@ -120,19 +120,19 @@ section {
     padding: 0.75rem 1.5rem;
     border-radius: 30px;
     font-weight: 500;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgb(255, 255, 255);
     transition: all 0.2s ease;
 }
 
 .skill-tag:hover {
     background-color: var(--accent-color);
-    color: #fff;
+    color: #ffffff;
     transform: scale(1.05);
 }
 
 /* --- Rodapé --- */
 footer {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgb(255, 255, 255);
 }
 
 .btn-social {
